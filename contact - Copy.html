@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background:#f8f9fa;
+        }
+
+        .header{
+            background:#4CAF50;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        .container{
+            width:50%;
+            margin:30px auto;
+            background:white;
+            padding:20px;
+            border-radius:8px;
+        }
+
+        h2{
+            text-align:center;
+            color:#4CAF50;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input, textarea, select{
+            width:100%;
+            padding:10px;
+            margin:8px 0 15px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            box-sizing:border-box;
+        }
+
+        input[type="radio"]{
+            width:auto;
+            margin-right:5px;
+        }
+
+        .btn{
+            background:#4CAF50;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+            width:100%;
+            font-size:16px;
+        }
+
+        .btn:hover{
+            background:#45a049;
+        }
+
+        footer{
+            background:#4CAF50;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>Contact Me</h1>
+</div>
+
+<div class="container">
+
+    <h2>Contact Form</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter your phone number">
+
+        <label>Email Address</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Gender</label><br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Other
+        <br><br>
+
+        <label>Interest</label>
+        <select>
+            <option>Select</option>
+            <option>Web Development</option>
+            <option>Programming</option>
+            <option>App Development</option>
+            <option>Internship</option>
+            <option>Project Collaboration</option>
+        </select>
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="Write your message here..."></textarea>
+
+        <input type="submit" value="Submit" class="btn">
+
+    </form>
+
+</div>
+
+<footer>
+    © 2026 Ashmeet Singh | My Portfolio
+</footer>
+
+</body>
+</html>
